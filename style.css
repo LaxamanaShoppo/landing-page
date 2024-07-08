@@ -5,17 +5,17 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Roboto";
+  background-color: #1f2937;
 }
 
 .full-color {
-  background-color: #1f2937;
   display: flex;
   justify-content: center;
 }
 
 .full-color .container {
-  width: 1080px;
-  border: 2px solid lightcoral;
+  width: 1440px;
+  /* border: 2px solid lightcoral; */
   height: 100vh;
 }
 
@@ -75,11 +75,9 @@ body {
 
 .hero {
   display: flex;
-  padding: 16px 48px;
+  padding: 80px 48px;
   align-items: center;
-  margin: 64px 0px;
   gap: 46px;
-  flex: 1;
 }
 
 .hero .left {
@@ -100,12 +98,12 @@ body {
   font-size: 18px;
 }
 
-.content .card1 {
+.content .card-1 {
   background-color: #f9faf8;
   padding: 46px 24px;
 }
 
-.card1 .title {
+.card-1 .title {
   text-align: center;
   font-size: 36px;
   color: #1f2937;
@@ -113,6 +111,102 @@ body {
   margin-bottom: 24px;
 }
 
+.illustration img {
+  width: 120px;
+  height: 120px;
+}
+
+.info-section .illustration {
+  display: flex;
+  justify-content: center;
+  gap: 78px;
+}
+
+.info-section .info-subtext {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.illustration img {
+  border: 2px #3882f6 solid;
+  border-radius: 8px;
+}
+
+.info-subtext p {
+  text-align: center;
+  width: 180px;
+  font-size: 18px;
+  color: #1f2937;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
+.content .card-2 {
+  background-color: #e5e7eb;
+  padding: 56px 0px;
+}
+
+.card-2 .quote-section {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  align-self: center;
+  margin: 0px 360px;
+}
+
+.card-2 .quote-from {
+  font-size: 18px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-left: 890px;
+}
+
+.content .card-3 {
+  background-color: #f9faf8;
+  padding: 56px 64px;
+}
+
+.card-3 .inside {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  align-items: center;
+  padding: 48px 64px;
+  border-radius: 6px;
+}
+
+.left-side .main-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.left-side .bottom-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.right-side button {
+  width: 120px;
+  font-weight: 900;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 18px;
+  background-color: #3882f6;
+  border: #e5e7eb solid;
+  color: #e5e7eb;
+}
+
+.content .footer {
+  font-size: 18px;
+  color: #f9faf8;
+  text-align: center;
+  padding: 56px 0px;
+}
 /* 
 .container1 {
   background-color: #1f2937;
